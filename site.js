@@ -41,6 +41,25 @@ const vue_app = Vue.createApp({
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+                  const year = dateArray[0];
+                  const month = dateArray[1];
+                  const day = dateArray[2];
+                  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                  return `${monthNames[month - 1]} ${day}, ${year}`;
+            },
+            like(index) {
+                  this.movies[index].likes++;
+            },
+            dislike(index) {
+                  this.movies[index].dislikes++;
+            },
+            posterClick(index) {
+                  this.movies[index].posterindex++;
+                  if (this.movies[index].posterindex >= this.movies[index].posters.length) {
+                        this.movies[index].posterindex = 0;
+                  }
+            }
       }
 })
 
