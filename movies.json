@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Superman",
+            "iscore": 7.1,
+            "rating": "PG-13",
+            "runtime": 129,
+            "released": [2025, 7, 11],
+            "country": "USA",
+            "posters": ["img/sup1.jpg", "img/sup2.jpg", "img/sup3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5950044/",
+            "website": "https://en.wikipedia.org/wiki/Superman_(2025_film)",
+            "likes": 928,
+            "dislikes": 109,
+            "posterindex": 0
+      },
+      {
+            "title": "The Lego Movie",
+            "iscore": 7.8,
+            "rating": "PG",
+            "runtime": 100,
+            "released": [2014, 2, 7],
+            "country": "USA",
+            "posters": ["img/lego1.jpg", "img/lego2.jpg", "img/lego3.png"],
+            "imdb": "https://www.imdb.com/title/tt1490017/",
+            "website": "https://en.wikipedia.org/wiki/The_Lego_Movie",
+            "likes": 928,
+            "dislikes": 109,
+            "posterindex": 0
+      },
+      {
+            "title": "The Lego Batman Movie",
+            "iscore": 7.3,
+            "rating": "PG",
+            "runtime": 104,
+            "released": [2017, 2, 16],
+            "country": "USA",
+            "posters": ["img/legobat1.jpg", "img/bat2.jpg", "img/bat3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt4116284/",
+            "website": "https://en.wikipedia.org/wiki/The_Lego_Batman_Movie",
+            "likes": 928,
+            "dislikes": 109,
+            "posterindex": 0
       }
 ]
