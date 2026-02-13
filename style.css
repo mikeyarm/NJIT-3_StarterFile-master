@@ -5,7 +5,9 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url(img/geometric-red-background-black-Graphics-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* This stylizes the header area */
@@ -14,13 +16,15 @@ body {
 }
 .header h1 {
     display: inline-block;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial Black', Arial, sans-serif;
 }
 
 /* This stylizes the main page area */
 .main {
     background-color: #f2f2f2;
     padding: 40px 0;
+    border-radius: 15px;
 }
 
 /* This stylizes the poster area and poster images */
@@ -29,8 +33,8 @@ body {
     position: relative;
     padding: 20px;
     margin: 20px;
-    border-radius: 0;
-    background-color:#dddddd;
+    border-radius: 15px;
+    background-color:#cecece;
 }
 .thumbnail img {
     margin-top: 10px;
@@ -41,7 +45,7 @@ body {
 
 /* This stylizes your "Poster X of Y" text */
 .imageInfo {
-	color: #959595;
+	color: #757474;
 	font-style: italic;
 	font-size: x-small;
 	float: right;
@@ -51,21 +55,21 @@ body {
 /* This stylizes your Title and Rating Text */
 .title,
 .released {
-    color: #444;
+    color: #000000;
     margin: 0;
     font-size: 18px;
     font-weight: 800;
 }
 .released,
 .rated {
-    color: #5d5d5d;
+    color: #313131;
     font-size: 14px;
     font-weight: 200;
 }
 
 /* This shapes your IMDB score area */
 .score {
-    background-color: #39D1B4;
+    background-color: #BF9A33;
     color: #fff;
     font-size: 18px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -106,6 +110,7 @@ body {
     font-weight: 200;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: 500ms;
+    margin-top: 30px;
 }
 
 /* This makes sure your Github Button is centered */
@@ -129,10 +134,10 @@ body {
     color: white;
 }
 .dislikes {
-    background-color: #f65a5b;
+    background-color: #ff0000;
     color: white;
 }
 .dislikes:hover {
-    background-color: #fdd6d6;
-    color: #f65a5b;
+    background-color: #fa7777;
+    color: #ffffff;
 }
